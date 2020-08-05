@@ -1,4 +1,5 @@
 <script>
+  import Button from '../common/Button.svelte';
 </script>
 
 <style>
@@ -29,4 +30,6 @@
 <p class="greeting">
   This is a library for the people. Welcome. Read the books here. Be inspired.
   Go home, and share them with your family.
+
+  <Button >Add Book</Button>
 </p>
